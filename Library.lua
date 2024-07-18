@@ -321,7 +321,7 @@ end
 --[[
 Example:
 
-local ff
+local ff = loadstring(game:HttpGet("https://raw.githubusercontent.com/SigmaFFTeam/FFLib/main/Library.lua"))()
 ff:MakeWindow({Name = "hh"})
 ]]
 
